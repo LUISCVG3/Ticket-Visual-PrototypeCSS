@@ -24,6 +24,7 @@ body{
     padding: 30px;
     align-self: center;
     transition: transform 0.3s ease;
+    margin: 20px auto
 }
 
 .box-text{
