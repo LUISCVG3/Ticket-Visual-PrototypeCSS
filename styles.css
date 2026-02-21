@@ -44,7 +44,7 @@ hr{
 }
 
 .fecha{
-    display: block;
+    display: flex;
     margin: 10vh 0;
     width: auto;
     font-style: italic;
