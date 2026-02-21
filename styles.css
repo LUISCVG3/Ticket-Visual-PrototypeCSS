@@ -45,13 +45,14 @@ hr{
 
 .fecha{
     display: block;
-    align-items: center;
     margin: 10vh 0;
     width: auto;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #ffff;
+    flex-direction: column;
+    align-items: center;
 }
 
 .encabezado{
