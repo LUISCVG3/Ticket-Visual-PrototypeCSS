@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Julius+Sans+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap);
+
+*{
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    background-color: #1f2937;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    color: #ffff;
+    background: #111927;
+    padding: auto;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.096);
+    padding: 30px;
+    align-self: center;
+    transition: transform 0.3s ease;
+}
+
+.box-text{
+    padding: 10px;
+}
+.box-text label{
+    color: aqua;
+}
+.box-text span{
+    color: #ffff;
+}
+
+hr{
+    width: 100%;
+}
+
+.fecha{
+    display: block;
+    align-items: center;
+    margin: 10vh;
+    width: auto;
+
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #ffff;
+}
+
+.encabezado{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+
+label{
+    font-weight: 600
+}
+
+span{
+    font-weight: 400
+}
+
+.container:hover{
+    transform: scale(1.02);
+}
+
+#saldo{
+    text-align: right;
+}
